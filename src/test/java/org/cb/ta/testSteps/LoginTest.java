@@ -1,4 +1,4 @@
-package org.cb.ta;
+package org.cb.ta.testSteps;
 
 
 import io.cucumber.java.en.And;
