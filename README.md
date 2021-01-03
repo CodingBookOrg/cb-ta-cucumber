@@ -55,7 +55,9 @@ Then: Expected Result <br>
 <hr>
 7) You can write step definitions using:
 <li>Tidy Gherkin plugin: https://chrome.google.com/webstore/detail/tidy-gherkin/nobemmencanophcnicjhfhnjiimegjeo?hl=en-GB
-<li>Error output
+<li>We can use Error output in IDE to create step definitions (It gives suggestions for step definitions)
+<hr>
+8) Test Runner
 
 
 
