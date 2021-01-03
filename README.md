@@ -58,6 +58,15 @@ Then: Expected Result <br>
 <li>We can use Error output in IDE to create step definitions (It gives suggestions for step definitions)
 <hr>
 8) Test Runner
+<hr>
+9) Parameters <br>
+<li> Define within "" in scenario steps in feature files
+<li>Define with regular expressions and method parameters in step definition file (code)
+<ul>
+<li>If there is no method parameters or is not compatible with step file, it gives error</li>
+</ul>
+</li>
+<br>
 
 
 

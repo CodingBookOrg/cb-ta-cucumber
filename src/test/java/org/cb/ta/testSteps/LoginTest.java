@@ -14,14 +14,11 @@ public class LoginTest {
         assertTrue(true);
     }
 
-    @When("User enters valid username")
-    public void user_enters_valid_username() {
-       assertTrue(true);
-    }
-
-    @And("valid password")
-    public void valid_password() {
+    @When("User enters username {string} and password {string}")
+    public void user_enters_username_and_password(String userName, String password) {
+        System.out.println("Username:" + userName + " Password:" + password);
         assertTrue(true);
+
     }
 
     @And("Clicks on log in button")
@@ -33,9 +30,6 @@ public class LoginTest {
     public void she_lands_to_dashboard_page() {
         assertTrue(true);
     }
-
-    @When("User enters invalid username")
-    public void test1(){}
 
     @Then("warns")
     public void test2(){}
